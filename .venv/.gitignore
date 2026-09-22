@@ -1,0 +1,95 @@
+# =========================
+# Python / Virtual Environment
+# =========================
+
+.venv/
+venv/
+env/
+
+__pycache__/
+*.py[cod]
+*$py.class
+
+# =========================
+# Environment / Secrets
+# =========================
+
+.env
+.env.*
+!.env.example
+
+# =========================
+# Project Notes / Local Files
+# =========================
+
+/notes/
+
+# =========================
+# Data
+# =========================
+
+# Ignore local datasets / generated data
+/data/
+
+# If you have small datasets that MUST be committed,
+# remove /data/ from this section.
+
+# =========================
+# Logs
+# =========================
+
+*.log
+logs/
+
+# =========================
+# Testing / Coverage
+# =========================
+
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+
+# =========================
+# Type Checking / Linters
+# =========================
+
+.mypy_cache/
+.ruff_cache/
+.pyright/
+
+# =========================
+# Jupyter
+# =========================
+
+.ipynb_checkpoints/
+
+# =========================
+# IDE
+# =========================
+
+.vscode/
+.idea/
+
+# =========================
+# OS
+# =========================
+
+.DS_Store
+Thumbs.db
+
+# =========================
+# Build / Distribution
+# =========================
+
+build/
+dist/
+*.egg-info/
+
+# =========================
+# Temporary Files
+# =========================
+
+*.tmp
+*.temp
+*.swp
